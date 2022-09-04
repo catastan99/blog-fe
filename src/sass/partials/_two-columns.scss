@@ -1,0 +1,9 @@
+.TwoColumns{
+    display: grid;
+    grid-template-columns: 80% 20%;
+
+    @media(max-width: $tablet-max) {
+        display: flex;
+        flex-direction: column;;
+      }
+}

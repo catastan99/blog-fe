@@ -1,0 +1,48 @@
+// bootstrap related
+$container-max-widths: (
+  xl: 1400px,
+) !default;
+$grid-breakpoints: (
+  xs: 0,
+  sm: 540px,
+  md: 769px,
+  lg: 1024px,
+  xl: 1284px,
+  xxl: 1700px,
+) !default;
+$grid-gutter-width: 30px;
+// colors
+
+$white: #fff;
+$gray: #2d2d2d60;
+
+
+$green-cyan: #1ABC9C;
+$blue-cyan: #2980B9;
+$sunny-yellow: #fff917;
+$red: #FE4A51;
+$cement: #a5a391;
+$pencil-blue: #2200ff;
+$ocean-blue: #2980B9;
+
+
+
+$primary-color: #2D2D2D;
+$secondary-color: #E5E5E5;
+
+
+$primary-text-color: $primary-color;
+$secondary-text-color: $white;
+// fonts
+$primary-font: "Lato", sans-serif;
+$secondary-font: "Playfair Display", sans-serif;
+// sizes
+
+//use these variables when bootstrap is not imported
+$container: 1200px;
+$container-laptop: 1000px;
+$container-tablet: 750px;
+$laptop-max: 1367px;
+$tablet-max: 1024px;
+$phone-max: 768px;
+$phone-small-max: 320px;

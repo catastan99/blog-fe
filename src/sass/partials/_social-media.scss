@@ -1,0 +1,30 @@
+.SocialMedia{
+    margin-bottom: 50px;
+    a{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+    .btn{
+        padding: 12px 10px;
+    }
+    span{
+        margin-right:8px;
+        font-size: 14px;
+    }
+
+    h5{
+        border-bottom: 2px solid black;
+        padding-bottom: 10px;
+        line-height: 42px;
+        margin-bottom: 40px;
+    }
+
+    .social-media-buttons{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 5px;
+
+    }
+
+}

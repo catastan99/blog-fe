@@ -1,0 +1,26 @@
+// load includes
+@import "includes/reset";
+@import "includes/fonts";
+@import "includes/variables";
+@import "includes/mixins";
+
+@import "includes/typography";
+@import "includes/forms";
+@import "includes/general";
+// load partials
+// @import "partials/*";
+@import "partials/navbar";
+@import "partials/hero";
+@import "partials/slick";
+@import "partials/articles";
+@import "partials/two-columns";
+@import "partials/article-page";
+@import "partials/related-category";
+@import "partials/author";
+@import "partials/social-media";
+@import "partials/google-ad";
+@import "partials/footer";
+@import "partials/all-articles";
+@import "partials/page404";
+// @import "partials/articleHP";
+

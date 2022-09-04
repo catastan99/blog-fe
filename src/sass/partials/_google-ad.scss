@@ -1,0 +1,17 @@
+.GoogleAd{
+    width: 100%;
+    height: 300px;
+    background-color: $gray;
+    position: relative;
+
+    &::after{
+        position: absolute;
+        top: 20px;
+        left: 0;
+        background-color: $red;
+        color: #fff;
+        content:"Reclamă";
+        padding:2px 15px;
+        font-size:10px;
+    }
+}

@@ -1,0 +1,47 @@
+.AllArticles{
+    margin-top: 100px;
+    
+
+    .AllArticles-slider{
+        height: 60vh;
+        margin-bottom: 80px;
+
+        .item{
+            height: 100%;
+
+            .slide{
+                height: 60vh;
+
+                .container{
+                    height: 100%;
+
+                    .slide-text{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        height: 100%;
+                        color: #fff;
+                        text-align: center;
+                    }
+                }
+
+
+                
+            }
+        }
+    }
+
+    form{
+        margin-left: auto;
+        width:min-content ;
+        margin-bottom: 30px;
+
+        option{
+            text-transform: capitalize;    
+          }
+    }
+
+    .Articles{
+        margin-bottom: 0;
+    }
+}
